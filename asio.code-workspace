@@ -9,6 +9,8 @@
             "*.htm": "sciter-html",
             "*.js": "javascript",
             "*.s": "arm",
+            "*.jsx": "typescript",
+            "*.njs": "javascript",
             "*.ipp": "cpp",
             "__config": "cpp",
             "chrono": "cpp",
@@ -16,7 +18,9 @@
             "functional": "cpp",
             "filesystem": "cpp",
             "memory": "cpp",
-            "complex": "cpp"
+            "complex": "cpp",
+            "utility": "cpp",
+            "tuple": "cpp"
         }
     }
 }

@@ -6,8 +6,7 @@ using namespace std::placeholders;
 void print(const asio::error_code& /*e*/,
     asio::steady_timer* t, int* count)
 {
-  if (*count < 5)
-  {
+  if (*count < 5) {
     std::cout << *count << std::endl;
     ++(*count);
 
