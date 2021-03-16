@@ -71,8 +71,7 @@ struct time_t_wait_traits
   }
 };
 
-typedef asio::basic_waitable_timer<
-  time_t_clock, time_t_wait_traits> time_t_timer;
+typedef asio::basic_waitable_timer<time_t_clock, time_t_wait_traits> time_t_timer;
 
 int main()
 {

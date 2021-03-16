@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "files.associations": {
+            "*.htm": "sciter-html",
+            "*.js": "javascript",
+            "*.s": "arm",
+            "*.ipp": "cpp",
+            "__config": "cpp",
+            "chrono": "cpp",
+            "istream": "cpp",
+            "functional": "cpp",
+            "filesystem": "cpp",
+            "memory": "cpp",
+            "complex": "cpp"
+        }
+    }
+}

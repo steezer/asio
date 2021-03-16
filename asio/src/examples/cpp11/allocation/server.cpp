@@ -14,7 +14,7 @@
 #include <memory>
 #include <type_traits>
 #include <utility>
-#include "asio.hpp"
+#include <asio.hpp>
 
 using asio::ip::tcp;
 
@@ -239,7 +239,7 @@ int main(int argc, char* argv[])
     if (argc != 2)
     {
       std::cerr << "Usage: server <port>\n";
-      return 1;
+      return 0;
     }
 
     asio::io_context io_context;
